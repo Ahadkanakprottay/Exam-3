@@ -1,0 +1,306 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* Basic CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+.container{
+    width: 73.30%;
+    margin: 0 auto;
+}
+.col-50{
+    width: 50%;
+    float: left;
+}
+.col-25{
+    width: 25%;
+    float: left;
+}
+.col-75{
+    width: 75%;
+    float: left;
+}
+.col-60{
+    width: 60%;
+    float: left;
+}
+.col-100{
+    width: 100%;
+    float: left;
+}
+.col-30{
+    width: 30%;
+    float: left;
+}
+.container:before,
+.container:after{
+    display: table;
+    content: "";
+    clear: both;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    display: inline;
+}
+/* Headbar Section CSS */
+.headbar{
+    background-color:#212121 ;
+    font-size: 14px;
+}
+.headbar a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.contact,
+.number,
+.email{
+    float: left;
+}
+.social,
+.login,
+.icon{
+    float: right;
+}
+h1 i,
+.login a{
+    color: #ff3115;
+    font-weight: 300;
+}
+h1 a:hover,
+.icon i:hover{
+    color: #ff3115;
+    transition: .3s;
+}
+h1 i{
+    margin-right: 10px;
+}
+h1{
+    margin-right: 20px;
+}
+.icon i{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+/* Menu Section CSS */
+.menu{
+    float: right;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    height: 34px;
+    width: 162px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-top: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #505050;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 50px 10px;
+}
+.menu ul li a:hover{
+    color: #ff3115;
+    transition: .3s;
+}
+header{
+    height: 100px;
+    width: 1519px;
+}
+header .container{
+    padding-top: 35px;
+
+}
+.menu a i{
+    color: #ff3115;
+}
+.menu .btn a{
+    color: #ffffff;
+    padding: 8px 15px;
+    background-color: #ff3115;
+    border-radius: 15px;
+}
+.menu .btn a:hover{
+    color: #ffffff;
+    background-color: #e41f05;
+    transition: .3s;
+}
+/* Home Section CSS */
+.home .btn a{
+    color: #ffffff;
+    padding: 16px 40px;
+    background-color: #ff3115;
+    border-radius: 30px;
+    display: inline;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+.btn{
+    display: inline-block;
+}
+.home .btn-2 a{
+    background-color: #ffffff;
+    color: #333333;
+}
+.home .btn-2 a:hover{
+    background-color: #ff3115;
+    color: #ffffff;
+    transition: .3s;
+}
+.home {
+    background-image: url(../images/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+.home h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #ff3515;
+}
+.home h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 75px;
+    color: #ffffff;
+}
+.home h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+.home .text-box{
+    margin-top: 220px;
+    padding-right: 10px;
+}
+/* Background Margin */
+.background-margin{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100px;
+}
+/* Counter Section CSS */
+.counter{
+    background-image: url(../images/bg-2.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-margin{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.text-margin h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 45px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.text-margin h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -5px;
+    margin-left: -25px;
+}
+.text-margin i{
+    color: #ff3515;
+    margin-left: -15px;
+}
+/* Learning Scetion CSS */
+.learning{
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 900px;
+}
+.learning h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #212121;
+    text-align: center;
+    margin-top: 90px;
+}
+.learning span{
+    color: #ff3115;
+}
+.learning h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #505050;
+    text-align: center;
+    margin-top: 10px;
+}
+.learning-box{
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    height: 270px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.learning-box:hover{
+    border: 1px solid #ff3515;
+    transition: .3s;
+}
+.learning-box h1{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.learning-box h2{
+    font-size: 14px;
+    line-height: 26px;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+.learning-box img{
+    margin-top: 40px;
+    margin-left: 135px;
+}
+.learning-2,
+.learning-5{
+    margin:0 30px;
+}
+.learning-3,
+.learning-6{
+    margin-right:0px;
+}
+.learning-1,
+.learning-2,
+.learning-3{
+    margin-top: 50px;
+}
